@@ -1,15 +1,17 @@
-@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url("https://cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.css");
+
 html {
   background: linear-gradient(to bottom, #04B4AE, #088A29);
   height: auto !important;
 }
+
 body {
-letter-spacing: -0.05em !important;
   background: transparent;
-  font-family: 'Nanum Gothic', sans-serif;
+  font-family: 'NanumSquareRound';
+  font-size: 15px
 }
 
-/* ÀüÃ¼ ½¦µµ¿ì */
+/* ì „ì²´ ì‰ë„ìš° */
 
 header #header-bar>.row,
 #main .menu-wrapper,
@@ -17,7 +19,7 @@ header #header-bar>.row,
   box-shadow: 3px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* ·Î°í¹Ø NAV bar */
+/* ë¡œê³ ë°‘ NAV bar */
 
 header #header-bar>.row {
   border-top: 4px solid #519D9E;
@@ -25,7 +27,7 @@ header #header-bar>.row {
   border-bottom: none;
 }
 
-/* Çì´õ ¹è³Ê */
+/* í—¤ë” ë°°ë„ˆ */
 
 header .row>div:nth-child(1)>a {
   display: block;
@@ -43,13 +45,13 @@ header .row>div:nth-child(1)>a>img {
   opacity: 0.8;
 }
 
-/* °Ë»öÆû º¸´õ */
+/* ê²€ìƒ‰í¼ ë³´ë” */
 
 header #right-search-form>input[type='text'] {
   border: 3px solid #58C9B9;
 }
 
-/* Æ®°Ô´õ ÀüÃ¼¸Þ´º / À¯¿ëÇÑ¸µÅ© / Æ®À§Ä¡ ½ºÄÉÁì */
+/* íŠ¸ê²Œë” ì „ì²´ë©”ë‰´ / ìœ ìš©í•œë§í¬ / íŠ¸ìœ„ì¹˜ ìŠ¤ì¼€ì¥´ */
 
 #main .menu-wrapper>.header {
   background: #519D9E;
@@ -76,44 +78,44 @@ header #header-bar>.row,
   border: none;
 }
 
-/* Çì´õ °Ë»ö ¹öÆ° */
+/* í—¤ë” ê²€ìƒ‰ ë²„íŠ¼ */
 
 header #right-search-form>#right-search-btn {
   color: #58C9B9;
 }
 
-/* Çì´õ [±¤°í]¹è°æ»ö */
+/* í—¤ë” [ê´‘ê³ ]ë°°ê²½ìƒ‰ */
 
 header #header-bar #header-top-notice strong.notice-badge {
   background: #519D9E;
 }
 
-/* fa»ö»ó */
+/* faìƒ‰ìƒ */
 
 header #header-bar .fa {
   color: #58C9B9;
 }
 
-/* ½ºÆ®¸®¸Ó °Ô½ÃÆÇ »ó´Ü Á¤º¸ ±Û¾¾»ö»ó */
+/* ìŠ¤íŠ¸ë¦¬ë¨¸ ê²Œì‹œíŒ ìƒë‹¨ ì •ë³´ ê¸€ì”¨ìƒ‰ìƒ */
 
 #board-info #board-info-bottom a {
   color: #519D9E;
 }
 
-/* ÁÂÃø¸Þ´º ¼ôÄÆ¸µÅ© ±Û¾¾ »ö»ó */
+/* ì¢Œì¸¡ë©”ë‰´ ìˆì»·ë§í¬ ê¸€ì”¨ ìƒ‰ìƒ */
 
 #main .menu-wrapper>a>em {
   color: #D1B6E1;
 }
 
-/* ÁÂÃø¸Þ´º ¸Þ´º»çÀÌÀÇ °ø°£ »ö»ó */
+/* ì¢Œì¸¡ë©”ë‰´ ë©”ë‰´ì‚¬ì´ì˜ ê³µê°„ ìƒ‰ìƒ */
 
 #main .menu-wrapper .spacer {
   background: #D1B6E1;
   height: 0.15em;
 }
 
-/* °Ô½Ã±Û °ü·ÃºÎºÐ */
+/* ê²Œì‹œê¸€ ê´€ë ¨ë¶€ë¶„ */
 
 #article-list>.article-list-row>.item>.list-title>.list-writer>span {
   width: 120px !important;
