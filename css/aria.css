@@ -70,7 +70,8 @@ header #header-bar>.row{
 header #header-bar #header-top-notice strong.notice-badge{
   background: #88dba3;
   padding:4px 8px;
-  color:#fff;font-weight:700
+  color:#fff;
+  font-weight:700
 }
 
 #main .menu-wrapper>.header {
@@ -135,11 +136,11 @@ header #header-bar #header-top-notice strong.notice-badge{
 
 #article-content-wrapper>.header{
   border-top:3px solid #88dba3;
-  background: # 2
+  background: #c8eebb
 }
 
 #article-content-wrapper>.footer{
-  background: # 2
+  background: #c8eebb
 }
 
 #article-list{
@@ -177,7 +178,6 @@ header #header-bar #header-top-notice strong.notice-badge{
   text-decoration:none;
   font-size:12px;
   font-weight:700;
-  color:#fff!important;
   border-radius:6px 6px 0 0
 }
 
