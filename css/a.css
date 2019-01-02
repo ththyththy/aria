@@ -27,6 +27,9 @@ header #header-bar {
     padding-left: 30px;
 }
 
+header #header-bar .fa {
+  color: #58C9B9
+}
 
 header #header-bar #header-top-notice a,header #header-bar a.dropdown-toggle{
   color: #4C4646
