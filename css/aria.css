@@ -478,3 +478,9 @@ span.a-badge i.fa.fa-star{color: #88dba3}
 }
 
 .badge{background: #88dba3}
+
+::selection {
+  background: #88dba3;
+  color: #ffffff;
+}
+
